@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", serif;
+}
+
+/*^CABECERA*/
+.contenedor_cabecera{
+    text-align: center;
+    /*background-image: linear-gradient(135deg, rgb(245, 247, 250, 0.6) 0%, rgb(195, 207, 226, 0.6) 100%), url(./imagenes/banner_acuarela_6.jpg);*/
+    background-image: linear-gradient(-20deg, rgb(97, 97, 97, .6) 0%, rgb(155, 197, 195, .6) 100%), url(./imagenes/banner_acuarela_6.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: none;
+    background-position: center;
+}
+
+.contenedor_menu{
+    padding: 20px;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    justify-content: space-evenly;
+    list-style: none;
+    cursor: pointer;
+    transition: 0.2s;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    width: 100%;
+    padding: 20px;
+    background-color: rgb(0, 0, 0, 0.7);
+}
+
+.menu_item{
+    transition: 0.1s;
+}
+
+.menu_item a{
+    color: white;
+    text-decoration: none;
+}
+
+.menu_item:hover{
+    transform: scale(1.3);
+}
+
+/*^BANNER*/
+
+#contenedor_banner{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100vh;
+}
+
+.contenedor_fotografia{
+    display: flex;
+    align-items: center;
+}
+
+.foto_santiago{
+    width: 450px; 
+    filter: brightness(0.9); /* Reduce el brillo al 90% */
+    mask-image:
+        linear-gradient(to bottom, black 90%, transparent),
+        linear-gradient(to left, black 90%, transparent);
+    mask-composite: intersect;
+}
+
+.banner_quienSoy{
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.titulo_presentacion{
+    color: rgb(251, 247, 247);
+    font-size: 40px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.titulo_presentacion:hover{
+    transform: scale(1.1);
+}
+
+.parrafo_banner{
+    background-color: rgb(128, 128, 128, .4);
+    color: rgb(251, 247, 247);
+    font-size: 18px;
+}
+
+/*^TECNOLOGÍAS*/
+
+#contenedor_tecnologias{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.contenedor_logos{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin-top: 20px;
+    border: 1px solid;
+    border-radius: 8px;
+    padding: 30px;
+}
+
+.contenedor_logos img{
+    width: 60px;
+}
+
+.seccion_logo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: 0.2s;
+}
+
+.seccion_logo p{
+    margin-top: 20px;
+}
+
+.seccion_logo img:hover{
+    transform: scale(1.0) translate(-5px, -10px);
+}

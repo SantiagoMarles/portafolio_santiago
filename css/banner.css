@@ -1,0 +1,47 @@
+/*^BANNER*/
+
+#contenedor_banner{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100vh;
+}
+
+.contenedor_fotografia{
+    display: flex;
+    align-items: center;
+}
+
+.foto_santiago{
+    width: 450px; 
+    filter: brightness(0.9); /* Reduce el brillo al 90% */
+    mask-image:
+        linear-gradient(to bottom, black 90%, transparent),
+        linear-gradient(to left, black 90%, transparent);
+    mask-composite: intersect;
+}
+
+.banner_quienSoy{
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.titulo_presentacion{
+    color: rgb(251, 247, 247);
+    font-size: 40px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.titulo_presentacion:hover{
+    transform: scale(1.1);
+}
+
+.parrafo_banner{
+    background-color: rgb(128, 128, 128, .4);
+    color: rgb(251, 247, 247);
+    font-size: 18px;
+}

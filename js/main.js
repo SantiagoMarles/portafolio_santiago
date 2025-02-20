@@ -15,6 +15,6 @@ for (let i = 0; i < menu.length; i++) {
         }
 
         const enlaceSeleccionado = menu[i].querySelector('a');
-        enlaceSeleccionado.style.color = 'lightblue';
+        enlaceSeleccionado.style.color = 'gray';
     });
 }

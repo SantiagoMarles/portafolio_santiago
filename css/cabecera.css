@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", serif;
+}
+
+/*^CABECERA*/
+.contenedor_cabecera{
+    text-align: center;
+    background-image: linear-gradient(-20deg, rgb(97, 97, 97, .6) 0%, rgb(155, 197, 195, .6) 100%), url(../imagenes/banner_acuarela_6.webp);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: none;
+    background-position: center;
+}
+
+.contenedor_menu{
+    padding: 20px;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-items: center;
+    justify-content: space-evenly;
+    list-style: none;
+    cursor: pointer;
+    transition: 0.2s;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    width: 100%;
+    padding: 20px;
+    height: 80px;
+    background-color: rgb(0, 0, 0);
+}
+
+.logo_santiago{
+    width: 90px;
+    transition: 0.2 ease;
+}
+
+.logo_santiago:hover{
+    transform: scale(1.2);
+    filter: drop-shadow(0px 0px 10px rgb(109, 198, 200));
+}
+
+.menu_item{
+    transition: 0.1s;
+}
+
+.menu_item a{
+    color: white;
+    text-decoration: none;
+}
+
+.menu_item a:hover{
+    color: rgb(109, 198, 200);
+}
+
+.menu_item:hover{
+    transform: scale(1.3);
+}

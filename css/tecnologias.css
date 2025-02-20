@@ -1,0 +1,40 @@
+/*^TECNOLOGÍAS*/
+
+#contenedor_tecnologias{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.contenedor_logos{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin-top: 20px;
+    border: 1px solid;
+    border-radius: 8px;
+    padding: 30px;
+}
+
+.contenedor_logos img{
+    width: 60px;
+}
+
+.seccion_logo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: 0.2s;
+}
+
+.seccion_logo p{
+    margin-top: 20px;
+}
+
+.seccion_logo img:hover{
+    transform: scale(1.0) translate(-5px, -10px);
+}

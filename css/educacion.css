@@ -1,0 +1,47 @@
+/*^ EDUCACIÓN */
+#educacion{
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+}
+
+.titulo_educacion{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.contenido_educacion{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(59, 101, 102);
+    height: 400px;
+    flex-wrap: wrap;
+}
+
+.contenido_educacion div img{
+    width: 200px;
+    height: 200px;
+}
+
+.contenido_educacion div h3{
+    width: 200px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.contenido_educacion div p{
+    width: 200px;
+    text-align: center;
+}
+
+.contenido_educacion div h3,
+.contenido_educacion div P{
+    display: none;
+}
+
+.contenido_educacion div:hover h3,
+.contenido_educacion div:hover P{
+    display: block;
+}

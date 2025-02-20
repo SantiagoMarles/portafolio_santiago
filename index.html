@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Santiago Marles</title>
-    <link rel="stylesheet" href="./style.css">
-    <link rel="icon" href="./imagenes/Logo.png">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" href="./imagenes/Logo.webp">
 </head>
 <body>
 
@@ -13,6 +13,7 @@
     <header class="contenedor_cabecera">
         <nav class="contenedor_menu">
             <ul class="menu">
+                <img class="logo_santiago" src="./imagenes/Logo.webp" alt="Logo Santiago">
                 <li id="menu_uno" class="menu_item">
                     <a id="enlace_uno" href="#contenedor_banner">Perfíl</a>
                 </li>
@@ -20,10 +21,10 @@
                     <a href="#educacion">Educación</a>
                 </li>
                 <li id="menu_tres" class="menu_item">
-                    <a href="#experiencia">Experiencia Laboral</a>
+                    <a href="#experiencias">Experiencia Laboral</a>
                 </li>
                 <li id="menu_cuatro" class="menu_item">
-                    <a href="#">Proyectos</a>
+                    <a href="#proyectos">Proyectos</a>
                 </li>
                 <li id="menu_cinco" class="menu_item">
                     <a href="#contenedor_tecnologias">Tecnologías</a>
@@ -34,7 +35,7 @@
 <!--^BANNER-->
         <section id="contenedor_banner">
             <div class="contenedor_fotografia">
-                <img class="foto_santiago" src="./imagenes/santiago.png" alt="Mi foto">
+                <img class="foto_santiago" src="./imagenes/santiago.webp" alt="Mi foto">
             </div>
             <div class="banner_quienSoy">
                 <h1 class="titulo_presentacion">Hola, Soy Santiago Marles</h1>
@@ -48,68 +49,170 @@
         <h2 class="titulo_tecnologia">Tecnologías</h2>
             <div class= "contenedor_logos">
                 <div class="seccion_logo">
-                    <img src="./imagenes/html.png" alt="">
+                    <img src="./imagenes/html.webp" alt="">
                     <p>HTML</p>
                 </div>
                 <div class="seccion_logo">
-                    <img src="./imagenes/CSS.png" alt="">
+                    <img src="./imagenes/CSS.webp" alt="">
                     <p>CSS</p>
                 </div>
                 <div class="seccion_logo">
-                    <img src="./imagenes/javaScript.png"    alt="">
+                    <img src="./imagenes/javaScript.webp"    alt="">
                     <p>JavaScript</p>
                 </div>
                 <div class="seccion_logo">
-                    <img src="./imagenes/SQL_Server.png"    alt="">
+                    <img src="./imagenes/SQL_Server.webp"    alt="">
                     <p>SQL Server</p>
                 </div>
                 <div class="seccion_logo">
-                    <img src="./imagenes/MySQL.png"alt="">
-                    <p>MySQL</p>
+                    <img src="./imagenes/GitHub.webp"alt="">
+                    <p>GitHub</p>
                 </div>
                 <div class="seccion_logo">
-                    <img src="./imagenes/Java.png"alt="">
+                    <img src="./imagenes/Git.webp"alt="">
+                    <p>Git</p>
+                </div>
+                <div class="seccion_logo">
+                    <img src="./imagenes/java.webp"alt="">
                     <p>Java</p>
                 </div>
             </div>
     </section>
 
-<!--^EDUCACIÓN-->
-    <main>
-        <div id="educacion">
-
-        </div>
-    </main>
-
 <!--^EXPERIENCIA LABORAL-->
-    <main>
-        <div id="experiencia">
-            <h2>Experiencia Laboral</h2>
-            <ul class="lista_experiencia">
-                <li class="item_experiencia">
-                    <h3>CET Colsubsidio</h3>
-                    <h4>Bogotá dd/mm/yyyy</h4>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro repellendus aperiam, quasi quis explicabo consequuntur, reiciendis quae expedita quam hic deserunt quas repudiandae, blanditiis vel quod cum ex delectus. Reprehenderit.</p>
-                </li>
-                <li class="item_experiencia">
-                    <h3>CUN</h3>
-                    <h4>Bogotá dd/mm/yyyy</h4>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro repellendus aperiam, quasi quis explicabo consequuntur, reiciendis quae expedita quam hic deserunt quas repudiandae, blanditiis vel quod cum ex delectus. Reprehenderit.</p>
-                </li>
-                <li class="item_experiencia">
-                    <h3>Agencia Seguros Falabella</h3>
-                    <h4>Bogotá dd/mm/yyyy</h4>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro repellendus aperiam, quasi quis explicabo consequuntur, reiciendis quae expedita quam hic deserunt quas repudiandae, blanditiis vel quod cum ex delectus. Reprehenderit.</p>
-                </li>
-            </ul>
-        </div>
+    <main id="experiencias">
+
+        <h2 class="tit_principal_experiencias">Experiencia Laboral</h2>
+        
+        <section class="exp_cet">
+            <div class="cont_img_cet">
+                <img class="img_cet" src="./imagenes/CET.webp" alt="imagen_cetColsubsidio">
+            </div>
+            <div class="experiencia_cet">
+                <h4 class="titulo_cargo">Técnico capacitación (Analista de Datos)</h4>
+                <h4>Bogotá - 13/Octubre/2023 - 31/Julio/2024</h4>
+                <ol>
+                    <li>Automaticé procesos de limpieza y cruce de datos, logrando una reducción del 40% en erroresmejorando significativamente la calidad de la información utilizada para análisis.</li>
+                    <br>
+                    <li>Administré y brindé soporte a bases de datos académicas, implementando mejoras que optimizan ltiempos de respuesta a solicitudes, garantizando la seguridad y disponibilidad de la información.</li>
+                    <br>
+                    <li>Desarrollé y mantuve tableros dinámicos en Power BI, que redujeron drásticamente los tiempos consolidación, reestructuración y visualización de datos.</li>
+                </ol>
+            </div>
+        </section>
+
+        <section class="exp_cun">
+            <div class="cont_img_cun">
+                <img class="img_cun" src="./imagenes/CUN.webp" alt="Logo CUN">
+            </div>
+            <div>
+                <h4 class="titulo_cargo">Analista de Datos</h4>
+                <h4>Bogotá - 02/Mayo/2023 - 04/Julio/2023</h4>
+                <ol>
+                    <li>Creé tableros interactivos en Power BI para consolidar y presentar informes dirigidos a la gerencia y para verificaciones solicitadas por el Ministerio de Educación.</li>
+                    <br>
+                    <li>Elaboré consultas SQL optimizadas y realicé limpieza de datos utilizando expresiones regulares.</li>
+                    <br>
+                    <li>Automaticé procesos y generé informes recurrentes para optimizar la gestión de la información.</li>
+                    <br>
+                    <li>Integré y crucé bases de datos, manteniendo actualizados los tableros en Power BI vinculados a hojas de cálculo de Google Sheets.</li>
+                </ol>
+            </div>
+        </section>
+
+        <section class="exp_agencia_seguros_fa">
+            <div class="cont_img_falabella">
+                <img class="img_falabella" src="./imagenes/Logo_segurosFalabella.webp" alt="Logo_Falabella">
+            </div>
+            <div>
+                <h4 class="titulo_cargo">Analista de Datos</h4>
+                <h4>Bogotá - 19/Septiembre/2022 - 23/Abril/2023</h4>
+                <ol>
+                    <li>Implementé procesos ETL automatizados para actualizar informes en tiempo real, logrando reducir el tiempo de entrega en un 80% y mejorando la accesibilidad de los datos para todas las áreas de la compañía.</li>
+                    <br>
+                    <li>Consolidé y procesé datos provenientes de múltiples fuentes, lo que permitió reducir errores en un 40% y garantizar una mayor calidad de la información, facilitando la ejecución de nuevas campañas estratégicas.</li>
+                </ol>
+            </div>
+        </section>
+
+        <section class="exp_ibm">
+            <div class="cont_img_ibm">
+                <img class="img_ibm" src="./imagenes/IBM.webp" alt="Logo_IBM">
+            </div>
+            <div>
+                <h4 class="titulo_cargo">Fin & Admin Business Associate</h4>
+                <h4>Bogotá - 12/Abril/2022 - 02/Agosto/2022</h4>
+                <ol>
+                    <li>Realicé análisis y ajustes en los conceptos facturados a clientes de servicios públicos en España, gestionando además la resolución de reclamaciones presentadas por los clientes.</li>
+                    <br>
+                    <li>Estructuré tablas de datos utilizadas como insumo para alimentar el tablero general de ajustes, facilitando el trabajo de los especialistas.</li>
+                </ol>
+            </div>
+        </section>
     </main>
+
+<!--^EDUCACIÓN-->
+<section id="educacion">
+    <h2 class="titulo_educacion">Educación</h2>
+    <div class="contenido_educacion">
+        <div>
+            <img src="./imagenes/logo_uniagustiniana.webp" alt="Logo Uniagustiniana">
+            <h3>Ing. Industrial</h3>
+            <p>Febrero/2015 - Aplazado</p>
+        </div>
+
+        <div>
+            <img src="./imagenes/logo_sena.webp" alt="Logo SENA">
+            <h3>TC. Programación de Software</h3>
+            <p>Enero/2022 - 28/Junio/2023</p>
+                
+        </div>
+
+        <div>
+            <img src="./imagenes/talento_tech.webp" alt="Logo Talento Tech">
+            <h3>D. Web Full Stack</h3>
+            <p>06/Marzo/2024 - 01/Agosto/2024</p>
+        </div>
+
+        <div>
+            <img src="./imagenes/logo_generation.webp" alt="Logo Generation">
+            <h3>D.Junior Full-Stack/Java</h3>
+            <p>15/Noviembre/2024 – 27/Febrero/2025</p>
+        </div>
+</section>
 
 <!--^PROYECTOS-->
-    <section>
-        <div></div>
+    <section id="contenedor_proyectos">
+        <h2 class="titulo_proyectos">Proyectos</h2>
+        <div class="proyectos">
+            <div class="contenido_manosLocales">
+                <h3>Manos locales</h3>
+                <img src="./imagenes/Logo Manos Locales transparente.png" alt="Logo Manos Locales">
+                <p>Manos Locales es una plataforma que conecta a artesanos y productores locales con personas que valoran el trabajo hecho a mano. Nuestro propósito es impulsar el talento local, preservar las tradiciones y fortalecer las economías de comunidades creativas. <br><br>
+    
+                A través de nuestra web, facilitamos el acceso a productos auténticos, elaborados con pasión y dedicación. Creemos en el consumo consciente y en el impacto positivo que genera apoyar el comercio local. <br><br>
+                    
+                Con Manos Locales, cada compra cuenta una historia y apoya a quienes ponen el corazón en cada creación. 💛🌍</p>
+                <a href="">Manos Locales</a>
+            </div>
+            <div class="contenido_hackatonUno">
+                <h3>Hackaton 1</h3>
+                <img src="./imagenes/hackaton_uno.webp" alt="Pantallazo Hackaton uno">
+                <p>Desarrollé una landing page de deportes en un desafío de 6 horas, utilizando HTML semántico, CSS y JavaScript.</p>
+                <h4>Funcionalidades</h4>
+                <ul>
+                    <li>Exploración de diferentes deportes con descripciones detalladas.</li>
+                    <li>Simulación de carrito de compras con una alerta al agregar productos.</li>
+                    <li>Selección de tallas antes de añadir un producto.</li>
+                    <li>Cambio dinámico de imágenes según el estilo seleccionado en una lista desplegable.</li>
+                    <li>Menú interactivo en un banner para navegar entre deportes.</li>
+                    <li>Footer con información de contacto.</li>
+                </ul>
+                <a href="https://santiagomarles.github.io/TiendaDeportiva_HackatonUno/" target="_blank">Hackaton 1 - Tienda Deportiva</a>
+            </div>
+        </div>
     </section>
 
-    <script src="./main.js"></script>
+    <script src="./js/main.js"></script>
 </body>
 </html>

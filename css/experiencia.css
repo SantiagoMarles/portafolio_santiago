@@ -1,0 +1,116 @@
+/*^ EXPERIENCIA */
+
+#experiencias{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.tit_principal_experiencias{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/**Contendor 1*/
+.exp_cet{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    width: 80vw;
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 8px;
+}
+
+.cont_img_cet{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+}
+
+.titulo_cargo{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/**Contendor 2*/
+.exp_cun{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    width: 80vw;
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 8px;
+}
+
+.cont_img_cun{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+}
+
+.img_cun{
+    width: 220px;
+}
+
+/**Contendor 3*/
+.exp_agencia_seguros_fa{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    width: 80vw;
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 8px;
+}
+
+.cont_img_falabella{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+}
+
+.img_falabella{
+    width: 230px;
+}
+
+/**Contendor 4*/
+.exp_ibm{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    width: 80vw;
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 8px;
+}
+
+.cont_img_ibm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+}
+
+.img_ibm{
+    width: 230px;
+}

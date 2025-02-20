@@ -1,0 +1,64 @@
+#contenedor_proyectos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.titulo_proyectos{
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.proyectos{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 80%;
+}
+
+/**Manos Locales*/
+.contenido_manosLocales{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.contenido_manosLocales h3{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.contenido_manosLocales img{
+    width: 200px;
+    margin-bottom: 10px;
+}
+
+.contenido_manosLocales p{
+    width: 400px;
+}
+
+/**Hackaton Uno*/
+.contenido_hackatonUno{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.contenido_hackatonUno h3{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.contenido_hackatonUno img{
+    width: 400px;
+    margin-bottom: 10px;
+}
+
+.contenido_hackatonUno p,
+.contenido_hackatonUno ul{
+    width: 400px;
+}

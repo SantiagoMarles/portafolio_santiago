@@ -128,3 +128,36 @@
         margin-bottom: 20px;
     }
 }
+
+@media screen and (max-width: 431px){
+    /**Manos Locales*/
+    .contenido_manosLocales{
+        width: 90%;
+    }
+
+    .contenido_manosLocales p{
+        width: 270px;
+    }
+
+    /**Hackaton 1*/
+    .contenido_hackatonUno{
+        width: 90%;
+    }
+
+    .contenido_hackatonUno img{
+        width: 270px;
+    }
+
+    .contenido_hackatonUno p{
+        width: 270px;
+    }
+
+    .contenido_hackatonUno h4{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .contenido_hackatonUno ul{
+        width: 250px;
+    }
+}

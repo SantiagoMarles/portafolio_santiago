@@ -114,3 +114,90 @@
 .img_ibm{
     width: 230px;
 }
+
+@media screen and (max-width: 431px){
+
+    /**Contenedor 1*/
+    .exp_cet{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .titulo_cargo{
+        font-size: 23px;
+    }
+
+    .experiencia_cet{
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        width: 280px;
+        text-align: center;
+    }
+
+    /**Contenedor 2*/
+    .exp_cun{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .titulo_cargo{
+        font-size: 23px;
+    }
+
+    .fecha_ingreso{
+        margin-bottom: 10px;
+    }
+
+    .experiencia_cun{
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        width: 280px;
+        text-align: center;
+    }
+
+    /**Contenedor 3*/
+    .exp_agencia_seguros_fa{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .titulo_cargo{
+        font-size: 23px;
+    }
+
+    .fecha_ingreso{
+        margin-bottom: 10px;
+    }
+
+    .experiencia_agen_falabella{
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        width: 280px;
+        text-align: center;
+    }
+
+    /**Contenedor 4*/
+    .exp_ibm{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .titulo_cargo{
+        font-size: 23px;
+    }
+
+    .fecha_ingreso{
+        margin-bottom: 10px;
+    }
+
+    .experiencia_ibm{
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        width: 280px;
+        text-align: center;
+    }
+}

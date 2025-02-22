@@ -38,3 +38,11 @@
 .seccion_logo img:hover{
     transform: scale(1.0) translate(-5px, -10px);
 }
+
+@media screen and (max-width: 431px){
+    .contenedor_logos{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+}

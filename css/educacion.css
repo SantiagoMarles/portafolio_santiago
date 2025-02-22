@@ -17,7 +17,6 @@
     align-items: center;
     background-color: rgb(59, 101, 102);
     height: 400px;
-    flex-wrap: wrap;
 }
 
 .contenido_educacion div img{
@@ -44,4 +43,29 @@
 .contenido_educacion div:hover h3,
 .contenido_educacion div:hover P{
     display: block;
+}
+
+@media screen and (max-width: 820px) {
+    .contenido_educacion{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+        gap: 20px;
+        height: 120%;
+        padding: 40px;
+    }
+
+    .titulo_educacion{
+        margin-bottom: 60px;
+    }
+
+    .contenido_educacion div h3,
+    .contenido_educacion div P{
+        display: none;
+    }
+
+    .contenido_educacion div:active h3,
+    .contenido_educacion div:active P{
+        display: block;
+    }
 }

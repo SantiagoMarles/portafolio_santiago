@@ -6,6 +6,7 @@
     align-items: center;
     justify-content: space-evenly;
     height: 100vh;
+    flex-wrap: wrap;
 }
 
 .contenedor_fotografia{
@@ -44,4 +45,35 @@
     background-color: rgb(128, 128, 128, .4);
     color: rgb(251, 247, 247);
     font-size: 18px;
+}
+
+@media screen and (max-width: 821px){
+    .foto_santiago{
+        width: 400px;
+    }
+
+    .banner_quienSoy{
+        width: 300px;
+    }
+
+    .titulo_presentacion{
+        font-size: 30px;
+    }
+
+    .parrafo_banner{
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 413px){
+    #contenedor_banner{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 100vh;
+    }
+
+    .foto_santiago{
+        width: 320px;
+    }
 }

@@ -66,3 +66,71 @@
 .menu_item:hover{
     transform: scale(1.3);
 }
+
+.menuHamburguesa{
+    width: 40px;
+}
+
+@media screen and (max-width: 430px){
+
+    .contenedor_menu{
+        background-color: rgb(0, 0, 0);
+    }
+
+    .menu{
+        display: flex;
+        flex-direction: column;
+        gap: 60px;
+        cursor: pointer;
+        transition: 0.2s;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 1000;
+        width: 100%;
+        padding: 20px;
+        height: 80px;
+        align-items: center;
+        margin-top: 30px;
+    }
+
+    .logo_santiago{
+        position: absolute;
+        bottom: 20px;
+        left: 20px;
+    }
+
+    .menu_item{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        left: 110px;
+        text-align: center;
+        display: none;
+        width: 30px;
+        font-weight: bold;
+    }
+
+    #menu_uno{
+        margin-top: 90px;
+    }
+
+    .menuHamburguesa{
+        position: fixed;
+        right: 70px;
+        top: 40px;
+    }
+
+    .mostrar{
+        display: block;
+    }
+}
+
+
+
+@media screen and (min-width: 431px){
+    .menuHamburguesa{
+        display: none;
+    }
+}

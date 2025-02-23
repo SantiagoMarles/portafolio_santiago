@@ -46,12 +46,11 @@
     width: 400px;
 }
 
-.contenido_manosLocales a{
-    font-size: 18px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+.contenido_manosLocales a img{
+    width: 60px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
-
 
 /**Hackaton Uno*/
 .contenido_hackatonUno{
@@ -81,10 +80,10 @@
     width: 400px;
 }
 
-.contenido_hackatonUno a{
-    font-size: 18px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+.contenido_hackatonUno a img{
+    width: 60px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 @media screen and (max-width: 912px){
@@ -114,18 +113,6 @@
 
     .contenido_hackatonUno h3{
         margin-top: 20px;
-    }
-
-    .contenido_manosLocales a{
-        font-size: 20px;
-        margin-top: 20px;
-        margin-bottom: 20px;
-    }
-
-    .contenido_hackatonUno a{
-        font-size: 20px;
-        margin-top: 20px;
-        margin-bottom: 20px;
     }
 }
 
@@ -172,6 +159,6 @@
     }
 
     .contenido_hackatonUno ul{
-        width: 230px;
+        width: 220px;
     }
 }

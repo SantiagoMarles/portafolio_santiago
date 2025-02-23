@@ -201,3 +201,21 @@
         text-align: center;
     }
 }
+
+@media screen and (max-width: 380px){
+    .experiencia_cet{
+        width: 240px;
+    }
+
+    .experiencia_cun{
+        width: 240px;
+    }
+
+    .experiencia_agen_falabella{
+        width: 240px;
+    }
+
+    .experiencia_ibm{
+        width: 240px;
+    }
+}

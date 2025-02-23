@@ -77,3 +77,9 @@
         width: 320px;
     }
 }
+
+@media screen and (max-width: 380px){
+    .foto_santiago{
+        width: 360px;
+    }
+}

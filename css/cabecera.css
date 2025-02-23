@@ -110,6 +110,10 @@
         font-weight: bold;
     }
 
+    .menu_item a{
+        color: black;
+    }
+
     #menu_uno{
         margin-top: 90px;
     }
@@ -125,10 +129,14 @@
     }
 }
 
-
-
 @media screen and (min-width: 431px){
     .menuHamburguesa{
         display: none;
+    }
+}
+
+@media screen and (max-width: 380px){
+    .menu_item{
+        left: 95px;
     }
 }

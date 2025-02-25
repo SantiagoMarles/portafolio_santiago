@@ -39,6 +39,10 @@
     margin-bottom: 20px;
 }
 
+.experiencia_cet ol{
+    list-style: none;
+}
+
 /**Contendor 2*/
 .exp_cun{
     display: flex;
@@ -61,6 +65,10 @@
 
 .img_cun{
     width: 220px;
+}
+
+.experiencia_cun ol{
+    list-style: none;
 }
 
 /**Contendor 3*/
@@ -87,6 +95,10 @@
     width: 230px;
 }
 
+.experiencia_agen_falabella ol{
+    list-style: none;
+}
+
 /**Contendor 4*/
 .exp_ibm{
     display: flex;
@@ -109,6 +121,14 @@
 
 .img_ibm{
     width: 230px;
+}
+
+.experiencia_ibm ol{
+    list-style: none;
+}
+
+.fecha_ingreso{
+    margin-bottom: 10px;
 }
 
 @media screen and (max-width: 431px){
@@ -140,10 +160,6 @@
         font-size: 23px;
     }
 
-    .fecha_ingreso{
-        margin-bottom: 10px;
-    }
-
     .experiencia_cun{
         display: flex;
         flex-direction: column;
@@ -161,10 +177,6 @@
         font-size: 23px;
     }
 
-    .fecha_ingreso{
-        margin-bottom: 10px;
-    }
-
     .experiencia_agen_falabella{
         display: flex;
         flex-direction: column;
@@ -180,10 +192,6 @@
 
     .titulo_cargo{
         font-size: 23px;
-    }
-
-    .fecha_ingreso{
-        margin-bottom: 10px;
     }
 
     .experiencia_ibm{

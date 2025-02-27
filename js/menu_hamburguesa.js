@@ -1,8 +1,8 @@
-const boton = document.querySelector('.menuHamburguesa');
-const items = document.querySelectorAll('.menu_item');
+document.addEventListener("DOMContentLoaded", function () {
+    const boton = document.querySelector('.contenedor_menuHamburguesa');
+    const menu = document.querySelector('.contenedor_menu');
 
-boton.addEventListener('click', function () {
-    for (let i = 0; i < items.length; i++) {
-        items[i].classList.toggle('mostrar'); 
-    }
+    boton.addEventListener('click', function () {
+        menu.classList.toggle('spreed');
+    });
 });

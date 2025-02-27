@@ -12,26 +12,39 @@
 <!--^CABECERA-->
     <header class="contenedor_cabecera">
         <nav class="contenedor_menu">
+            <div class="menu_logo">
+                <a href="./index.html"><img class="logo_santiago" src="./imagenes/Logo.webp" alt="Logo Santiago"></a>
+            </div>
+
             <ul class="menu">
-                <img class="logo_santiago" src="./imagenes/Logo.webp" alt="Logo Santiago">
                 <li id="menu_uno" class="menu_item">
-                    <a id="enlace_uno" href="#contenedor_banner">Perfíl</a>
+                    <a href="#contenedor_banner">Perfíl</a>
                 </li>
+
                 <li id="menu_dos" class="menu_item">
                     <a href="#educacion">Educación</a>
                 </li>
+
                 <li id="menu_tres" class="menu_item">
                     <a href="#experiencias">Experiencia Laboral</a>
                 </li>
+
                 <li id="menu_cuatro" class="menu_item">
                     <a href="#contenedor_proyectos">Proyectos</a>
                 </li>
+
                 <li id="menu_cinco" class="menu_item">
                     <a href="#contenedor_tecnologias">Tecnologías</a>
                 </li>
-                <img class="menuHamburguesa" src="./imagenes/menu_hamburguesa.png" alt="menu_hamburguesa">
+
+                <li id="menu_seis" class="menu_item">
+                    <a href="#">Contacteme</a>
+                </li>
             </ul>
         </nav>
+        <div class="contenedor_menuHamburguesa">
+            <img class="menuHamburguesa" src="./imagenes/menu_hamburguesa.png" alt="menu_hamburguesa">
+        </div>
 
 <!--^BANNER-->
         <section id="contenedor_banner">
@@ -40,7 +53,7 @@
             </div>
             <div class="banner_quienSoy">
                 <h1 class="titulo_presentacion">Hola, Soy Santiago Marles</h1>
-                <p class="parrafo_banner">Desarrollador Full-Stack con experiencia en creación de plataformas web dinámicas y manejo eficiente de bases de datos como SQL Server y MySQL. Me destaco por mi enfoque en soluciones innovadoras, trabajo en equipo y aprendizaje continuo.</p>
+                <p class="parrafo_banner">Desarrollador Frontend con experiencia en creación de plataformas web dinámicas y manejo eficiente de bases de datos como SQL Server y MySQL. Me destaco por mi enfoque en soluciones innovadoras, trabajo en equipo y aprendizaje continuo.</p>
             </div>
         </section>
     </header>
@@ -73,10 +86,6 @@
                     <img src="./imagenes/Git.webp" alt="Logo Git">
                     <p>Git</p>
                 </div>
-                <div class="seccion_logo">
-                    <img src="./imagenes/java.png" alt="Logo Java">
-                    <p>Java</p>
-                </div>
             </div>
     </section>
 
@@ -95,7 +104,7 @@
                 <ol>
                     <li>Automaticé procesos de limpieza y cruce de datos, logrando una reducción del 40% en errores mejorando significativamente la calidad de la información utilizada para análisis.</li>
                     <br>
-                    <li>Administré y brindé soporte a bases de datos académicas, implementando mejoras que optimizan lOS tiempos de respuesta a solicitudes, garantizando la seguridad y disponibilidad de la información.</li>
+                    <li>Administré y brindé soporte a bases de datos académicas, implementando mejoras que optimizan los tiempos de respuesta a solicitudes, garantizando la seguridad y disponibilidad de la información.</li>
                     <br>
                     <li>Desarrollé y mantuve tableros dinámicos en Power BI, que redujeron drásticamente los tiempos de consolidación, reestructuración y visualización de datos.</li>
                 </ol>
@@ -156,29 +165,28 @@
 <section id="educacion">
     <h2 class="titulo_educacion">Educación</h2>
     <div class="contenido_educacion">
-        <div>
+        <div class="contenido_educativo">
             <img src="./imagenes/logo_uniagustiniana.webp" alt="Logo Uniagustiniana">
             <h3>Ing. Industrial</h3>
             <p>Febrero/2015 - Aplazado</p>
         </div>
 
-        <div>
+        <div class="contenido_educativo">
             <img src="./imagenes/logo_sena.webp" alt="Logo SENA">
             <h3>TC. Programación de Software</h3>
-            <p>Enero/2022 - 28/Junio/2023</p>
-                
+            <p>Enero/2022 - 28/Junio/2023</p> 
         </div>
 
-        <div>
+        <div class="contenido_educativo">
             <img src="./imagenes/talento_tech.webp" alt="Logo Talento Tech">
             <h3>D. Web Full Stack</h3>
             <p>06/Marzo/2024 - 01/Agosto/2024</p>
         </div>
 
-        <div>
+        <div class="contenido_educativo">
             <img src="./imagenes/logo_generation.webp" alt="Logo Generation">
             <h3>D.Junior Full-Stack/Java</h3>
-            <p>15/Noviembre/2024 – 27/Febrero/2025</p>
+            <p>15/Noviembre/2024 – 26/Febrero/2025</p>
         </div>
 </section>
 
@@ -213,6 +221,7 @@
         </div>
     </section>
 
+<!--^CONTACTAME-->
     <script src="./js/main.js"></script>
     <script src="./js/menu_hamburguesa.js"></script>
 </body>

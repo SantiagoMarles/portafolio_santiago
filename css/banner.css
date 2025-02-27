@@ -31,19 +31,31 @@
 }
 
 .titulo_presentacion{
-    color: rgb(251, 247, 247);
+    color: #FFD700;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
     font-size: 40px;
     cursor: pointer;
-    transition: 0.2s;
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid #00ffcc; /* Simula el cursor */
+    animation: escribir 4s steps(40) forwards, parpadeo 0.8s infinite;
 }
 
-.titulo_presentacion:hover{
-    transform: scale(1.1);
+@keyframes escribir {
+    from { width: 0; }
+    to { width: 100%; }
+}
+
+@keyframes parpadeo {
+    50% { border-color: transparent; }
 }
 
 .parrafo_banner{
-    background-color: rgb(128, 128, 128, .4);
-    color: rgb(251, 247, 247);
+    color: rgba(255, 255, 255, 0.8);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    border-radius: 5px;
     font-size: 18px;
 }
 

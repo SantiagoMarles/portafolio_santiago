@@ -10,7 +10,7 @@
 /*^CABECERA*/
 .contenedor_cabecera{
     text-align: center;
-    background-image: linear-gradient(-20deg, rgb(97, 97, 97, .6) 0%, rgb(155, 197, 195, .6) 100%), url(../imagenes/banner_acuarela_6.webp);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../imagenes/banner_acuarela_6.webp);
     background-size: cover;
     background-attachment: fixed;
     background-repeat: none;
@@ -18,53 +18,49 @@
 }
 
 .contenedor_menu{
-    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(0, 0, 0);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.logo_santiago{
+    width: 100px;
+}
+
+.logo_santiago:hover{
+    filter: drop-shadow(0px 0px 15px rgb(232, 157, 116));
 }
 
 .menu{
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-items: center;
     justify-content: space-evenly;
-    list-style: none;
-    cursor: pointer;
-    transition: 0.2s;
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 1000;
-    width: 100%;
-    padding: 20px;
-    height: 80px;
-    background-color: rgb(0, 0, 0);
-}
-
-.logo_santiago{
-    width: 90px;
-    transition: 0.2 ease;
-}
-
-.logo_santiago:hover{
-    transform: scale(1.2);
-    filter: drop-shadow(0px 0px 10px rgb(109, 198, 200));
+    gap: 20px;
 }
 
 .menu_item{
-    transition: 0.1s;
-}
-
-.menu_item a{
-    color: white;
-    text-decoration: none;
-}
-
-.menu_item a:hover{
-    color: rgb(109, 198, 200);
+    list-style: none;
 }
 
 .menu_item:hover{
-    transform: scale(1.3);
+    transform: scale(1.1);
+}
+
+.menu_item a{
+    text-decoration: none;
+    color: white;
+    transition: 0.2s;
+}
+
+.menu_item a:hover{
+    color: rgb(232, 157, 116);
 }
 
 .menuHamburguesa{
@@ -72,60 +68,40 @@
 }
 
 @media screen and (max-width: 431px){
+    .contenedor_menuHamburguesa{
+        position: fixed;
+        top: 30px;
+        right: 30px;
+        width: 40px;
+        height: 40px;
+        cursor: pointer;
+        z-index: 1000;
+    }
 
     .contenedor_menu{
-        background-color: rgb(0, 0, 0);
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        top: 0;
+        right: 0;
+        width: 30vw;
+        height: 100%;
+        transform: translate(110%);
+    }
+
+    .spreed{
+        transform: translate(0);
+    }
+
+    .menu_logo{
+        display: none;
     }
 
     .menu{
         display: flex;
         flex-direction: column;
-        gap: 60px;
-        cursor: pointer;
-        transition: 0.2s;
-        position: fixed;
-        top: 0;
-        left: 0;
-        z-index: 1000;
-        width: 100%;
-        padding: 20px;
         align-items: center;
-    }
-
-    .logo_santiago{
-        position: absolute;
-        bottom: 10px;
-        left: 20px;
-    }
-
-    .menu_item{
-        position: relative;
-        display: flex;
-        flex-direction: column;
-        gap: 30px;
-        left: 110px;
-        text-align: center;
-        display: none;
-        width: 30px;
-        font-weight: bold;
-    }
-
-    .menu_item a{
-        color: black;
-    }
-
-    #menu_uno{
-        margin-top: 90px;
-    }
-
-    .menuHamburguesa{
-        position: fixed;
-        right: 40px;
-        top: 20px;
-    }
-
-    .mostrar{
-        display: block;
+        gap: 60px;
     }
 }
 
@@ -134,9 +110,9 @@
         display: none;
     }
 }
-
+/*
 @media screen and (max-width: 380px){
     .menu_item{
         left: 90px;
     }
-}
+}*/
